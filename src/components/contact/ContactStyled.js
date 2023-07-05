@@ -64,6 +64,7 @@ input, textarea{
         flex-direction: column;
         gap: 2rem;
     }
+    
   }
   @media screen and (max-width: 600px) {
    width: var(--container-width-sm);

@@ -4,12 +4,17 @@ export const HeaderStyle = styled.header`
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
+  
+ 
+  
 
   .header__container {
     text-align: center;
-    height: 90%;
+    height: 100%;
     position: relative;
-    top: -85px;
+    top: -89px;
+   
+   
     
   }
 
@@ -27,7 +32,7 @@ export const HeaderStyle = styled.header`
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 5rem;
   }
 
   .header__socials::after {
@@ -38,21 +43,20 @@ export const HeaderStyle = styled.header`
   }
 
   .me {
-    /* background: linear-gradient(var(--color-primary), transparent); */
-    z-index: -1;
+    background: linear-gradient(var(--color-primary), transparent);
     width: 25rem;
     height: 25rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    background: var(--color-primary);
     overflow: hidden;
     border-radius: 50%;
   }
 
   .me img{
-   width: 80%;
+   width: 100%;
    height: auto;
+   
   }
 
   .scroll__down {

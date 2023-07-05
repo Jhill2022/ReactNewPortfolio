@@ -4,8 +4,11 @@ export const PortfolioStyled = styled.section`
 
 .portfolio__items{
   display: flex;
-  gap: 1rem; 
+  gap: 2rem; 
   flex-wrap: wrap;
+  position: relative;
+  left: 25px;
+  
 }
 
 .portfolio__item{

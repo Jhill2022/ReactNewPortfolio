@@ -7,11 +7,12 @@ import { HeaderStyle } from './HeaderStyle';
 const Header = () => {
   return (
     <HeaderStyle>
-      <div className='buttonflex'><div className="toggle-button">
-        <input type="checkbox" id="toggle" className="toggle-input" />
-        <label htmlFor="toggle" className="toggle-label"></label>
-      </div></div>
-      
+      <div className="buttonflex">
+        <div className="toggle-button">
+          <input type="checkbox" id="toggle" className="toggle-input" />
+          <label htmlFor="toggle" className="toggle-label"></label>
+        </div>
+      </div>
 
       <div className="container header__container">
         <h5>Hello I'm</h5>

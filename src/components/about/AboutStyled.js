@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 export const AboutStyle = styled.section`
+
+
+
+
+
  .about__container {
   display: flex;
   justify-content: space-between;

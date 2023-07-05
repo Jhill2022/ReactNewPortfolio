@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const ServiceStyle = styled.section`
     .services__container{
         display: flex;
-        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-columns: repeat(3, 1fr); */
         gap: 3rem;
     }
 
